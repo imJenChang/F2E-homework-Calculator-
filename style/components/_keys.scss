@@ -1,0 +1,36 @@
+.keys {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 87.5px);
+  grid-template-rows: repeat(5, 80px);
+  background-color: #16345b;
+  button {
+    cursor: pointer;
+    background-color: unset;
+    border: none;
+    padding-left: unset;
+    padding-right: unset;
+    color: #ffffff;
+    width: 72px;
+    height: 64px;
+  }
+  button:hover {
+    color: #00c4ff;
+  }
+  .keys-operator {
+    background-color: #041936;
+    border-radius: 16px;
+  }
+  .keys-delete {
+    color: #00c4ff;
+  }
+  .keys-span-two {
+    grid-column: span 2;
+    background: linear-gradient(90deg, #00c4ff, #6c00ff);
+    border-radius: 16px;
+    width: 160px;
+    height: 64px;
+    text-align: right;
+    padding-right: 28px;
+  }
+}

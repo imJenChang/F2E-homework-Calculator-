@@ -1,0 +1,30 @@
+.output {
+  height: 150px;
+  width: 350px;
+  background-color: #041936;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #16345b;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #00c4ff;
+  }
+  .output-previous {
+    color: #00c4ff;
+    font-size: 16px;
+  }
+  .output-current {
+    color: #ffffff;
+    font-size: 56px;
+  }
+}
